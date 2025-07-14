@@ -1,0 +1,10 @@
+pages:
+  stage: deploy
+  script:
+    - echo "Deploying Tesla public key…"
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+
